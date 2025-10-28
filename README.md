@@ -41,7 +41,7 @@ seqra-job:
     # Relative path to the root of the analyzed project
     PROJECT_ROOT: "."
     # Tag of seqra release
-    SEQRA_VERSION: "v1.0.2"
+    SEQRA_VERSION: "v1.1.0"
     # Relative path to rules. If set RULES_REPOSITORY not used
     RULES_PATH: ""
     # Scan timeout
