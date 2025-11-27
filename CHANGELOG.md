@@ -1,3 +1,5 @@
+## v1.5.2
+### fix: Bump version
 ## v1.5.1
 ### fix: Bump version
 - fix: Bump version
