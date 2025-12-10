@@ -10,7 +10,7 @@
     # Relative path to the root of the analyzed project
     PROJECT_ROOT: "."
     # Tag of seqra release
-    SEQRA_VERSION: "v1.5.2"
+    SEQRA_VERSION: "v1.6.0"
     # Relative path to rules. If set RULES_REPOSITORY not used
     RULES_PATH: ""
     # Scan timeout
@@ -35,11 +35,11 @@
     - 'chmod +x "$SEQRA_ARTIFACTS/seqra"'
 
     # Compile project
-    - '$SEQRA_ARTIFACTS/seqra compile --quiet --github-token "$GITHUB_TOKEN" --output "$SEQRA_ARTIFACTS/project" $PROJECT_ROOT'
+    - '$SEQRA_ARTIFACTS/seqra compile --quiet --output "$SEQRA_ARTIFACTS/project" $PROJECT_ROOT'
 
     # Run analysis
     - |
-      cmd="$SEQRA_ARTIFACTS/seqra --quiet --github-token \"$GITHUB_TOKEN\" scan"
+      cmd="$SEQRA_ARTIFACTS/seqra scan --quiet"
 
       if [ -n "$RULES_PATH" ]; then
         cmd="$cmd --ruleset $RULES_PATH"
