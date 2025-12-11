@@ -1,3 +1,5 @@
+## v1.6.2
+### fix: Bump version
 ## v1.6.1
 ### fix: Bump version
 ## v1.6.0
