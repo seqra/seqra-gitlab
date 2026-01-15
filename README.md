@@ -41,9 +41,11 @@ seqra-job:
     # Relative path to the root of the analyzed project
     PROJECT_ROOT: "."
     # Tag of seqra release
-    SEQRA_VERSION: "v2.0.2"
-    # Relative path to rules. If set RULES_REPOSITORY not used
-    RULES_PATH: ""
+    SEQRA_VERSION: "v2.1.0"
+    # Comma-separated paths to rule files or directories (e.g., "rules/custom.yml,rules/extra")
+    RULES_PATH: "builtin"
+    # Comma-separated severity levels to report: note, warning, error
+    SEVERITY: "warning,error"
     # Scan timeout
     TIMEOUT: "15m"
 ```
