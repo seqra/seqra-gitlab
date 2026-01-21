@@ -1,3 +1,6 @@
+## v2.1.1
+### fix: Bump version
+- fix: Bump version
 ## v2.1.0
 ### feat: Update options with latest enhancements
 ## v2.0.2
