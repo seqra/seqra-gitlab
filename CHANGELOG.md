@@ -1,3 +1,5 @@
+## v2.3.0
+### feat: Bump version
 ## v2.2.0
 ### feat: Bump version
 ## v2.1.1
